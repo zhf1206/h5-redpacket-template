@@ -1,0 +1,442 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.red-box {
+    background-color: #fff;
+    overflow: hidden;
+    color: #222;
+}
+
+/* 红包部分 */
+
+.red-detail {
+    overflow: hidden;
+    height: 6.65rem;
+    padding: 1.18rem 1.32rem;
+    background: url(../images/redbg.png) no-repeat center;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.red-text {
+    padding: .28rem .43rem .28rem .53rem;
+}
+
+.red-text p {
+    text-align: center;
+}
+
+.red-row-name {
+    line-height: .5rem;
+    font-size: .26rem;
+    color: #df3121
+}
+
+.red-row-price {
+    line-height: .94rem;
+    font-size: .36rem;
+}
+
+.red-row-price span {
+    font-size: .6rem;
+}
+
+.red-row-unit {
+    line-height: .58rem;
+    font-size: .6rem;
+}
+
+.red-word {
+    color: #fff;
+    padding: .2rem .28rem;
+}
+
+.red-copy {
+    line-height: .6rem;
+    font-size: .26rem;
+    text-align: center;
+}
+
+.red-psw {
+    padding: .15rem .24rem .15rem .3rem;
+    word-break: break-all;
+    font-size: .42rem;
+    line-height: .76rem;
+    text-align: center;
+}
+
+/* 红包按钮部分 */
+
+.red-btn {
+    padding: .07rem 1.22rem .33rem;
+}
+
+.red-btn a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.red-know {
+    line-height: .74rem;
+    font-size: .22rem;
+    color: #ff7000;
+}
+
+.red-save,
+.red-down {
+    border-radius: .5rem;
+    height: .88rem;
+    line-height: .88rem;
+    margin: .25rem .3rem;
+    border: 2px solid #ff7000;
+}
+
+.red-save {
+    font-size: .34rem;
+    color: #fff;
+    background-color: #ff7000;
+}
+
+.red-down {
+    font-size: .28rem;
+    color: #ff7000;
+}
+
+/* 看看大家手气部分 */
+
+.luck-title {
+    line-height: .64rem;
+    font-size: .26rem;
+    color: #888;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.luck-scroll{
+    overflow:hidden;
+    height:5.9rem;
+}
+.luck-lis {
+    padding: 0 .55rem;
+}
+.luck-lis:last-child{
+    border-bottom: 0;
+}
+.luck-box {
+    padding: .18rem 0;
+    overflow: hidden;
+    border-bottom: 1px solid #f5f5f5;
+}
+.luck-last-box {
+    border-bottom: 0;
+}
+
+.luck-head {
+    width: .8rem;
+    height: .8rem;
+    border-radius: 50%;
+    margin-right: .2rem;
+    float: left;
+}
+
+.luck-msg {
+    float: right;
+    width: 5rem;
+    padding: .08rem 0;
+    overflow: hidden;
+}
+
+.luck-name {
+    height: .34rem;
+    overflow: hidden;
+}
+
+.luck-name span {
+    display: block;
+    float: left;
+    line-height: .34rem;
+}
+
+.luck-na {
+    font-size: .24rem;
+    margin-right: .1rem;
+}
+
+.luck-sign {
+    font-size: .18rem;
+    color: #eac021;
+}
+
+.luck-sign i {
+    width: .36rem;
+    height: .24rem;
+    display: inline-block;
+    line-height: 1;
+    background: url(../images/ic-ring.png) no-repeat center;
+    background-size: 100% 100%;
+    margin-right: .1rem;
+}
+
+.luck-time {
+    overflow: hidden;
+}
+
+.luck-time span {
+    display: block;
+    line-height: .28rem;
+    font-size: .22rem;
+}
+
+.luck-t {
+    float: left;
+    color: #999;
+}
+
+.luck-p {
+    float: right;
+    color: #ff7000;
+}
+
+/* token */
+
+.blank {
+    width: 100%;
+    height: .2rem;
+    background-color: #f5f5f5;
+}
+
+.token {
+    width: 100%;
+    margin-top: .15rem;
+}
+
+.token .line {
+    background-image: url(../images/ic-line.png);
+    background-size: 6.36rem .02rem;
+    width: 6.36rem;
+    height: .02rem;
+    margin: 0 auto;
+    position: relative;
+    top: .29rem;
+}
+
+.token span {
+    display: block;
+    line-height: .6rem;
+    text-align: center;
+    margin: 0 auto;
+    color: #999999;
+    font-size: .3rem;
+}
+
+.token-info {
+    display: inline-block;
+    margin-top: .4rem;
+    color: #999999;
+    font-size: .28rem;
+    padding: 0 .55rem;
+}
+
+.token-info p {
+    line-height: .5rem;
+}
+
+.cli-this {
+    color: #ff7000;
+    font-size: .28rem;
+    text-decoration: none;
+}
+
+.bottom {
+    width: 100%;
+    height: .5rem;
+    margin-top: .5rem;
+    background-color: #f5f5f5;
+}
+
+.prompt {
+    position: absolute;
+    display: none;
+    z-index: 999;
+    width: 2rem;
+    top: 50%;
+    left: 50%;
+    margin-left: -1rem;
+    margin-top: -0.8rem;
+}
+
+.prompt .prompt-content {
+    padding: 10px 20px;
+    line-height: 22px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .7);
+    font-size: .28rem;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+table{
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.wrap {
+    margin: 4rem auto;
+    width: 6rem;
+}
+
+td {
+    text-align: left;
+    padding: 2px 10px;
+    vertical-align: middle;
+}
+td img{
+    font-size:0px;
+}
+td.header {
+    font-size: .36rem;
+    padding-bottom: 10px;
+    color: #000;
+}
+td.tip{
+    font-size:.26rem;
+    line-height: 20px;
+    color:#666;
+}

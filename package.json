@@ -1,0 +1,16 @@
+{
+  "name": "redpacket",
+  "version": "1.0.0",
+  "description": "this is red packet project",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp default",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zeke",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.5.0"
+  }
+}
